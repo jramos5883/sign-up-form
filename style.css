@@ -1,26 +1,75 @@
 /*comment*/
+* {
+    border: 2px solid red;
+}
+
+body {
+    background-color:azure;
+}
+
 .flex-container{
     display: flex;
-    
-
 }
 
 .banner {
-    
+    position: static;
+
+
 }
+
 .leaves {
     height: 800px;
-    width: 400px;
+    width: 425px;
 }
 
 .card {
+    display: flex;
     position: relative;
-    bottom: 800px;
+    bottom: 650px;
     background-color: black;
-    border: 2px solid red;
-    opacity: 0.5;
+    opacity: 0.6;
+    justify-content: center;
 }
+
+.cardheading {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
 .odin {
     height: auto;
-    width: 150px;
+    width: 100px;
+    padding: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 300px;
+    width: auto;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.form-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.tile {
+    height: 75px;
+    width: 300px;
+}
+/*side by side*/
+.sbs {
+    display: flex;
+    flex-direction: row;
 }
