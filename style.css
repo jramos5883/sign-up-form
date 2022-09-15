@@ -1,0 +1,26 @@
+/*comment*/
+.flex-container{
+    display: flex;
+    
+
+}
+
+.banner {
+    
+}
+.leaves {
+    height: 800px;
+    width: 400px;
+}
+
+.card {
+    position: relative;
+    bottom: 800px;
+    background-color: black;
+    border: 2px solid red;
+    opacity: 0.5;
+}
+.odin {
+    height: auto;
+    width: 150px;
+}
