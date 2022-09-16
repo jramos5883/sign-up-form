@@ -1,10 +1,7 @@
 /*comment*/
 * {
-    border: 2px solid red;
-}
-
-body {
-    background-color:azure;
+    /*border: 2px solid red;*/
+    margin: 0px;
 }
 
 .flex-container{
@@ -13,19 +10,22 @@ body {
 
 .banner {
     position: static;
+    height: 1000px;
+}
 
-
+h1 {
+    margin-top: 15px;
 }
 
 .leaves {
-    height: 800px;
+    height: 1000px;
     width: 425px;
 }
 
 .card {
     display: flex;
     position: relative;
-    bottom: 650px;
+    bottom: 800px;
     background-color: black;
     opacity: 0.6;
     justify-content: center;
@@ -34,7 +34,7 @@ body {
 .cardheading {
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 50px;
 }
 
 .odin {
@@ -46,11 +46,14 @@ body {
 .form-container {
     display: flex;
     flex-direction: column;
+    background-color: #eaeaea;
 }
 
 .header {
-    height: 300px;
-    width: auto;
+    height: 200px;
+    width: 700px;
+    margin-top: 157px;
+    margin-left: 50px;
 }
 
 p {
@@ -62,14 +65,56 @@ p {
     display: flex;
     flex-direction: column;
     background-color: white;
+    width: 1000px;
+    box-shadow: 10px 5px 5px lightgrey;
 }
 
+label {
+    margin-bottom: 5px;
+}
+
+h2 {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mybox {
+    height: 20px;
+}
+label {
+    border-radius: 5px;
+}
 .tile {
     height: 75px;
     width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 /*side by side*/
 .sbs {
     display: flex;
     flex-direction: row;
+}
+
+button {
+    background-color: rgb(16, 121, 16);
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
 }
